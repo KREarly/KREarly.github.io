@@ -27,7 +27,7 @@ ul {
 footer {
     background-color: #001021;
     color: #1481BA;
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     padding: 20px;
     text-align: center;
 }
@@ -40,7 +40,7 @@ footer {
 #wowitsathing {
     background-color: #0CAADC;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     margin: 0 auto;
     max-width: 800px;
 }
