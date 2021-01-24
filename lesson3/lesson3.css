@@ -1,0 +1,39 @@
+h1 {
+    color: #1481BA;
+    background-color: #001021;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+h3 {
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h6 {
+    margin: 0px;
+
+}
+
+ul {
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #001021;
+    color: #1481BA;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+    text-align: center;
+}
+
+#wowitsathing {
+    background-color: #0CAADC;
+    color: white;
+    font-family: 'Merriweather', serif;
+    margin: 0 auto;
+    max-width: 800px;
+}
