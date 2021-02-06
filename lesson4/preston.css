@@ -1,13 +1,31 @@
 header {
-    background-color: blue;
+    background-color: #001021;
     padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #001021;
+    color: #1481BA;
+}
+
+body {
+    font-family: 'Merriweather', serif;
 }
 
 #logo {
     width: 100px;
     height: 100px;
     background-color: white;
+}
+
+#page-title {
+    color: white;
+}
+
+#slogan {
+    color: #1481BA;
 }
