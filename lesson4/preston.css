@@ -8,10 +8,56 @@ header {
 footer {
     background-color: #001021;
     color: #1481BA;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 5px;
+    text-align: center;
 }
 
 body {
     font-family: 'Merriweather', serif;
+    max-width: 800px;
+    margin: auto;
+}
+
+main {
+    background-color: #1481BA;
+    padding: 5px;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #001021;
+    color: white;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a, .navigation a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: white;
+    color: #1481BA;
+}
+
+.responsive li {
+    display: block;
 }
 
 .container {
@@ -30,9 +76,9 @@ body {
 }
 
 .sections {
-    background-color: gray;
+    background-color: lightgray;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 #logo {
@@ -51,6 +97,7 @@ body {
     margin-top: 0px;
 }
 
-#navigation {
-    padding: 20px;
+#contact-map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

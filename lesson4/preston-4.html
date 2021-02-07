@@ -9,6 +9,12 @@
             <link rel="stylesheet" href="large.css">
             <meta name="description" content="Assignment for W4">
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+            <script>
+                function toggleMenu() {
+                    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+                }
+            </script>
+            <link rel="shortcut icon" href="favicon.ico">
         </head>
         <body>
             <header>
@@ -21,16 +27,17 @@
                 </div>
             </header>
             <nav>
-                <ul id="navigation">
-                    <li>Home</li>
-                    <li>Preston</li>
-                    <li>Soda Springs</li>
-                    <li>Fish Haven</li>
-                    <li>Storm Center</li>
-                    <li>Gallery</li>
+                <ul class="navigation responsive">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
                 </ul>
             </nav>
-            <main >
+            <main>
                 <h1>Preston Idaho</h1>
                 <div class="sections">
                     <h3>Weather Summary</h3>
@@ -42,12 +49,20 @@
                     <h3>Article</h3>
                     <img>
                 </div>
+                <div id="contact-map">
+                    <img id="map">
+                    <div id="contact">
+                    <h3>Contact Information</h3>
+                    <p>Phone: (000)000-0000)</p>
+                    <p>Email: 00000000@gmail.com</p>
+                    <p>Address: 0000 S 0 W pkwy, Town, ZZ</p>
+                    <img id="instagram">
+                    <img id="twitter">
+                    <img id="facebook">
+                    </div>
+                </div>
             </main>
             <footer>
-                <h3>Contact Information</h3>
-                <p>Instagram Link</p>
-                <p>Facebook Link</p>
-                <img id="map">
                 <h6>Date:</h6>
             </footer>
         </body>
