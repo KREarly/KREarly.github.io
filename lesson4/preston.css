@@ -1,10 +1,8 @@
 header {
     background-color: #001021;
-    padding: 5px 0;
-    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    padding: 10px;
 }
 
 footer {
@@ -16,6 +14,27 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+.container {
+    width: 100%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin: 20px
+}
+
+.sections {
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+}
+
 #logo {
     width: 100px;
     height: 100px;
@@ -24,8 +43,14 @@ body {
 
 #page-title {
     color: white;
+    margin-bottom: 5px;
 }
 
 #slogan {
     color: #1481BA;
+    margin-top: 0px;
+}
+
+#navigation {
+    padding: 20px;
 }
