@@ -1,3 +1,31 @@
 @media (min-width: 32.5em) {
+    #me {
+        float: right;
+        width: 110px;
+    }
 
+    h1 {
+        color: #1481BA;
+        background-color: #001021;
+        padding: 20px;
+        padding-left: 40px;
+    }
+    
+    header {
+        max-width: 800px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    footer {
+        padding: 20px;
+    }
+    
+    #wowitsathing {
+        background-color: #0CAADC;
+        color: white;
+        font-family: 'Noto Sans KR', sans-serif;
+        margin: 0 auto;
+        max-width: 800px;
+    }
 }
