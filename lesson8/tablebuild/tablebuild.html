@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <thead>
     <meta charset="utf-8">
     <title>Table Activity</title>
     <link href="tablebuild.css" rel="stylesheet" type="text/css">
-  </head>
+  </thead>
   <body>
-    <h1>Table template</h1>
     <table>
         <th colspan="3">ACME Wildwest</th>
-        <tr>
-            <th class="whiteBlue">Period</th>
-            <th class="whiteBlue">Sales</th>
-            <th class="whiteBlue">Sales Goal</th>
-        </tr>
-        <tr>
-            <td>August</td>
-            <td>$3,590</td>
-            <td>$4,000</td>
-        </tr>
-        <tr>
-            <td>September</td>
-            <td>$4,420</td>
-            <td>$5,000</td>
-        </tr>
-        <tr>
-            <td>October</td>
-            <td>$4,870</td>
-            <td>$5,000</td>
-        </tr>
-        <tr>
-            <td>November</td>
-            <td>$8,610</td>
-            <td>$7,500</td>
-        </tr>
-        <tr>
-            <td>Black Friday</td>
-            <td colspan="2" class="whiteBlue">$3,200</td>
-        </tr>
-        <tr>
-            <td>December</td>
-            <td>$6,820</td>
-            <td>$7,500</td>
-        </tr>
-        <th colspan="3">Compiled 12.20.2020 by bRauls</th>
+        <tbody>
+            <tr>
+                <th class="whiteBlue">Period</th>
+                <th class="whiteBlue">Sales</th>
+                <th class="whiteBlue">Sales Goal</th>
+            </tr>
+            <tr>
+                <td>August</td>
+                <td>$3,590</td>
+                <td>$4,000</td>
+            </tr>
+            <tr>
+                <td>September</td>
+                <td>$4,420</td>
+                <td>$5,000</td>
+            </tr>
+            <tr>
+                <td>October</td>
+                <td>$4,870</td>
+                <td>$5,000</td>
+            </tr>
+            <tr>
+                <td>November</td>
+                <td>$8,610</td>
+                <td class="whiteBlue">$7,500</td>
+            </tr>
+            <tr>
+                <td id="bfriday">Black Friday</td>
+                <td colspan="2">$3,200</td>
+            </tr>
+            <tr>
+                <td>December</td>
+                <td>$6,820</td>
+                <td>$7,500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="3">Compiled 12.20.2020 by bRauls</th>
+        </tfoot>
     </table>
   </body>
 </html>
