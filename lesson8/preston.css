@@ -148,7 +148,7 @@ img [data-src] {
 }
 
 #hero {
-    background-image: url("Hero-Image.jpg");
+    background-image: url("imgs/Hero-Image.jpg");
     background-size: cover;
     padding: 20px;
 }

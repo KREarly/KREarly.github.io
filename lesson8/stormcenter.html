@@ -1,0 +1,55 @@
+<!DOCTYPE HTML5>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8">
+                <title>Storm Center Page</title>
+                <link rel="stylesheet" href="normalize.css">
+                <link rel="stylesheet" href="preston.css">
+                <link rel="stylesheet" href="medium.css">
+                <link rel="stylesheet" href="large.css">
+                <script src="lazyload/lazyload.js" defer></script>
+                <meta name="description" content="storm center page">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        </head>
+        <body>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Info</legend>
+                    <label>Full Name* <input type="text" name="name" required></label>
+                    <label>Email<input type="email" name="email" placeholder="youremail@gmail.com"></label>
+                    <label>Phone*<input type="tell" name="phone" placeholder="1235551234" required></label>
+                    <label>Zip Code*<input type="number" name="zip" placeholder="00000" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Storm Details</legend>
+                    <label>Storm Date*<input type="date" name="date" placeholder="00/00/00" required></label>
+                    <div>
+                        <legend>Storm Type*</legend>
+                        <label><input type="" name="stormType" value="flashFlood">Flash Flood</label>
+                        <label><input type="" name="stormType" value="hail">Hail</label>
+                        <label><input type="" name="stormType" value="hurricane">Hurricane</label>
+                        <label><input type="" name="stormType" value="tornado">Tornado</label>
+                    </div>
+                    <div>
+                        <legend>Severity on a Scale of 1-10*</legend>
+                        <label><input type="range" name="severity" value="1to10"></label>
+                    </div>
+                    <div>
+                        <legend>Storm Region*</legend>
+                        <select name="region">
+                            <option value="">Please Select</option>
+                            <option value="preston">Preston</option>
+                            <option value="sodaSprings">Soda Springs</option>
+                            <option value="fishHaven">Fish Haven</option>
+                        </select>
+                    </div>
+                    <div>
+                        <legend>Are You in Danger?</legend>
+                        <label><input type="radio" value="yes">Yes</label>
+                        <label><input type="radio" value="maybe">Maybe</label>
+                        <label><input type="radio" value="no">No</label>
+                    </div>
+                </fieldset>
+            </form>
+        </body>
+    </html>
