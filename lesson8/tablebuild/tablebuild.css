@@ -1,0 +1,39 @@
+/*#e7f0ed #e7ffed (data rows) #628ca6, #7fb9c2 */
+
+html {
+    font-family: Ubuntu, sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #7fb9c2;
+  }
+  
+  td {
+    text-align: center;
+    background-color: #e7f0ed;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #e7ffed;
+  }
+  
+  caption {
+    padding: 10px;
+  }
+
+  .whiteBlue {
+      color: white;
+      background-color: #628ca6; 
+  }

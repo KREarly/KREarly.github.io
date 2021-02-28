@@ -1,0 +1,22 @@
+h1 {
+    color: #001021;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 20px 0px 20px 20px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+img [data-src] {
+    filter: blur(0.2em);
+}
+
+#images {
+    display: grid;
+    grid-template-columns: 1em;
+}
