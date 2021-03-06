@@ -1,4 +1,8 @@
 @media (min-width: 64em) {
+    label, datalist, select, legend {
+        font-size: 1.25em;
+    }
+
     #images {
         display: grid;
         grid-template-columns: 423px 423px 423px;
@@ -6,5 +10,9 @@
 
     .section:hover {
         box-shadow: 0 0 50px #333;
+    }
+
+    .formHeader {
+        font-size: 2em;
     }
 }

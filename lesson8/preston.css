@@ -1,3 +1,9 @@
+body {
+    font-family: 'Merriweather', serif;
+    max-width: 800px;
+    margin: auto;
+}
+
 header {
     background-color: #001021;
     align-items: center;
@@ -13,15 +19,23 @@ footer {
     text-align: center;
 }
 
-body {
-    font-family: 'Merriweather', serif;
-    max-width: 800px;
-    margin: auto;
-}
-
 main {
     background-color: #1481BA;
     padding: 5px;
+}
+
+fieldset {
+    margin: 20px;
+    background-color: white;
+    border-style: solid 1px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+input, select, datalist {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -34,12 +48,10 @@ nav {
 
 h1 {
     color: #001021;
-    font-family: 'Merriweather', serif;
     margin-left: 25px;
 }
 
 p {
-    font-family: 'Merriweather', serif;
     margin: 10px;
 }
 
@@ -54,6 +66,9 @@ img {
 img [data-src] {
     filter: blur(0.2em);
 }
+
+
+
 
 .navigation {
     list-style: none;
@@ -99,6 +114,13 @@ img [data-src] {
     margin: 20px
 }
 
+.formHeader {
+    font-size: 1.5em;
+    background-color: white;
+    padding: 5px;
+    border: solid 1px;
+}
+
 .sections {
     background-color: white;
     margin: 20px;
@@ -124,15 +146,19 @@ img [data-src] {
     margin: 10px;
 }
 
+.page-title {
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+
+
 #logo {
     width: 100px;
     height: 100px;
     background-color: white;
-}
-
-#page-title {
-    color: white;
-    margin-bottom: 5px;
 }
 
 #slogan {
@@ -197,4 +223,13 @@ img [data-src] {
 #images {
     display: grid;
     grid-template-columns: 423px;
+}
+
+#displayLvl {
+    color: #1BC0EE;
+}
+
+#subButton {
+    text-align: center;
+    margin: 20px 0px 5px 0px;
 }
