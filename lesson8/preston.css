@@ -153,6 +153,19 @@ img [data-src] {
 }
 
 
+/* Chrome, Safari, Edge, Opera */
+input.noSpinner::-webkit-outer-spin-button,
+input.noSpinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input.noSpinner[type=number] {
+    -moz-appearance: textfield;
+}
+
+
 
 
 #logo {

@@ -35,14 +35,13 @@
             </nav>
             <main>
             <h1 class="page-title">Storm Center</h1>
-
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend class="formHeader">Contact Info</legend>
-                    <label>Full Name* <input type="text" name="name" required></label><br>
+                    <label>Full Name* <input type="text" name="name" pattern="[A-Za-z ]+" id="fullName" required></label><br>
                     <label>Email<input type="email" name="email" placeholder="youremail@gmail.com"></label><br>
                     <label>Phone*<input type="tell" name="phone" placeholder="1235551234" required></label><br>
-                    <label>Zip Code*<input type="number" name="zip" placeholder="00000" required></label><br>
+                    <label>Zip Code*<input type="number" name="zip" placeholder="00000" class="noSpinner" required></label><br>
                 </fieldset>
                 <fieldset>
                     <legend class="formHeader">Storm Details</legend>
@@ -93,6 +92,10 @@
                     </div>
                     <div id="subButton">
                         <label><input type="submit" value="Report Storm"></label>
+                    </div>
+                    <div>
+                        <legend>Comments:</legend>
+                        <input>
                     </div>
                 </fieldset>
             </form>
