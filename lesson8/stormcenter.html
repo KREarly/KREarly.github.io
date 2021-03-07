@@ -59,11 +59,12 @@
                     </div>
                     <div>
                         <label>Severity on a Scale of 1-10*
-                        <label class="" for="rating">
-                            <input list="severity" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <label for="rating">
+                            <input class="centering" list="severity" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                             <span id="displayLvl">5</span>
                         </label>
                         <datalist id="severity">
+                            <option value="0"></option>
                             <option value="1"></option>
                             <option value="2"></option>
                             <option value="3"></option>
@@ -88,15 +89,15 @@
                         </label>
                     </div>
                     <div>
-                        <span>Are You in Danger?*
+                        <label>Are You in Danger?*</label>
                         <label><input type="radio" value="yes" name="danger">Yes</label>
                         <label><input type="radio" value="maybe" name="danger">Maybe</label>
                         <label><input type="radio" value="no" name="danger">No</label>
-                        </span>
                     </div>
                     <div>
-                        <legend>Comments:</legend>
-                        <input>
+                        <label>Comments:
+                        <textarea name="comments" placeholder="Extra comments"></textarea>
+                    </label>
                     </div>
                     <div id="subButton">
                         <label><input type="submit" value="Report Storm"></label>
