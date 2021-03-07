@@ -47,7 +47,7 @@
                     <legend class="formHeader">Storm Details</legend>
                     <label>Storm Date*<input type="date" required></label>
                     <div>
-                        <legend>Storm Type*</legend>
+                        <label>Storm Type*
                         <input list="stormTypes" name="stormType" placeholder="Please Select">
                             <datalist id="stormTypes">
                                 <option value="Flash Flood"></option>
@@ -55,9 +55,10 @@
                                 <option value="Hurricane"></option>
                                 <option value="Tornado"></option>
                             </datalist>
+                        </label>
                     </div>
                     <div>
-                        <legend>Severity on a Scale of 1-10*</legend>
+                        <label>Severity on a Scale of 1-10*
                         <label class="" for="rating">
                             <input list="severity" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                             <span id="displayLvl">5</span>
@@ -74,28 +75,31 @@
                             <option value="9"></option>
                             <option value="10"></option>
                         </datalist>
+                        </label>
                     </div>
                     <div>
-                        <legend>Storm Region*</legend>
+                        <label>Storm Region*
                         <select name="region">
                             <option value="">Please Select</option>
                             <option value="preston">Preston</option>
                             <option value="sodaSprings">Soda Springs</option>
                             <option value="fishHaven">Fish Haven</option>
                         </select>
+                        </label>
                     </div>
                     <div>
-                        <legend>Are You in Danger?*</legend>
-                        <label><input type="radio" value="yes">Yes</label>
-                        <label><input type="radio" value="maybe">Maybe</label>
-                        <label><input type="radio" value="no">No</label>
-                    </div>
-                    <div id="subButton">
-                        <label><input type="submit" value="Report Storm"></label>
+                        <span>Are You in Danger?*
+                        <label><input type="radio" value="yes" name="danger">Yes</label>
+                        <label><input type="radio" value="maybe" name="danger">Maybe</label>
+                        <label><input type="radio" value="no" name="danger">No</label>
+                        </span>
                     </div>
                     <div>
                         <legend>Comments:</legend>
                         <input>
+                    </div>
+                    <div id="subButton">
+                        <label><input type="submit" value="Report Storm"></label>
                     </div>
                 </fieldset>
             </form>
