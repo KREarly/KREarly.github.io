@@ -1,0 +1,33 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+section {
+    background-color: #B9B9CC;
+    min-width: 200px;
+    justify-content: auto;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    box-shadow: 10px 10px 8px gray;
+    justify-content: auto;
+    margin: 15px;
+}
+
+h2 {
+    color: #4D4D96;
+    padding: 15px 15px 0px 15px;
+}
+
+p {
+    padding: 0px 15px 0px 15px;
+}

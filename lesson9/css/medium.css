@@ -1,0 +1,23 @@
+@media (min-width: 480px) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    #images {
+        display: grid;
+        grid-template-columns: 423px 423px;
+    }
+}
