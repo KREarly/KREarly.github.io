@@ -32,7 +32,7 @@ fieldset {
     font-weight: bold;
 }
 
-input, select, span, datalist, option {
+input, select, span, datalist {
     font-size: 1em;
     margin-top: 10px;
     margin-bottom: 10px;
