@@ -3,6 +3,12 @@
         font-size: 1.25em;
     }
 
+    div.info {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
     #images {
         display: grid;
         grid-template-columns: 423px 423px 423px;

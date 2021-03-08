@@ -51,6 +51,10 @@ h1 {
     margin-left: 25px;
 }
 
+h2 {
+    color: #001021;
+}
+
 p {
     margin: 10px;
 }
@@ -72,6 +76,29 @@ textarea {
     resize: vertical;
     min-height: 150px;
     margin-top: 10px;
+}
+
+div.info {
+	display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+input.noSpinner::-webkit-outer-spin-button,
+input.noSpinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input.noSpinner[type=number] {
+    -moz-appearance: textfield;
 }
 
 
@@ -163,19 +190,6 @@ textarea {
 }
 
 
-/* Chrome, Safari, Edge, Opera */
-input.noSpinner::-webkit-outer-spin-button,
-input.noSpinner::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-/* Firefox */
-input.noSpinner[type=number] {
-    -moz-appearance: textfield;
-}
-
-
 
 
 #logo {
@@ -197,7 +211,7 @@ input.noSpinner[type=number] {
 }
 
 #hero {
-    background-image: url("imgs/Hero-Image.jpg");
+    background-image: url("../imgs/Hero-Image.jpg");
     background-size: cover;
     padding: 20px;
 }
