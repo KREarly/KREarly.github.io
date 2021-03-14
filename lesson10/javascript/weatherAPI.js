@@ -29,7 +29,7 @@ fetch(forecastURL)
       th.appendChild(p);
       document.querySelector('tr.topRow').appendChild(th);
 
-
+      
     }
   }
 
