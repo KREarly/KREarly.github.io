@@ -2,15 +2,15 @@
     <html lang="en-us">
             <head>
                 <meta charset="utf-8">
-                <title>W9 Assignment</title>
+                <title>W10 Assignment</title>
                 <link rel="stylesheet" href="css/normalize.css">
                 <link rel="stylesheet" href="css/preston.css">
                 <link rel="stylesheet" href="css/medium.css">
                 <link rel="stylesheet" href="css/large.css">
                 <script src="javascript/lazyload.js" defer></script>
-                <script src="javascript/windchill.js" defer></script>
                 <script src="javascript/preston.js" defer></script>
-                <meta name="description" content="W9 Assignment">
+                <script src="javascript/weatherAPI.js" defer></script>
+                <meta name="description" content="W10 Assignment">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
                 <script>
                     function toggleMenu() {
@@ -46,21 +46,24 @@
                     <div id="hero">
                         <div id="summary">
                             <h3>Weather Summary</h3>
-                            <p>Currently: Sunny</p>
-                            <p>High: 76 *F</p>
-                            <p>Wind Chill: <span id="wind-chill"></span> *F</p>
-                            <p>Humidity: 69%</p>
-                            <p>Wind Speed: 5 mph</p>
+                            <p>Currently: <span id="current-temp"></span>&deg; F</p>
+                            <p>High: <span id="high-temp"></span>&deg; F</p>
+                            <p>Wind Chill: <span id="wind-chill"></span>&deg; F</p>
+                            <p>Humidity: <span id="humidity"></span>%</p>
+                            <p>Wind Speed: <span id="wind-speed"></span> mph</p>
                         </div>
                     </div>
 
                     <div class="sections forecast">
                         <h3>Five Day Forecast</h3>
-                        <div id="day1" class="day"></div>
-                        <div id="day2" class="day"></div>
-                        <div id="day3" class="day"></div>
-                        <div id="day4" class="day"></div>
-                        <div id="day5" class="day"></div>
+                        <table>
+                            <tr class="topRow">
+
+                            </tr>
+                            <tr class="bottomRow">
+
+                            </tr>
+                        </table>
                     </div>
 
                     <div class="sections article">
@@ -77,8 +80,7 @@
                     </div>
 
                     <div id="contact-map">
-                        <img id="map">
-                        <div id="contact">
+                        <div>
                             <h3>Contact Information</h3>
                             <p>Phone: (000)000-0000)</p>
                             <p>Email: 00000000@gmail.com</p>

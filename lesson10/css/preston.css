@@ -51,8 +51,9 @@ h1 {
     margin-left: 25px;
 }
 
-h2 {
+h2, h3 {
     color: #001021;
+    margin: 10px;
 }
 
 p {
@@ -99,6 +100,20 @@ input.noSpinner::-webkit-inner-spin-button {
 
 input.noSpinner[type=number] {
     -moz-appearance: textfield;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    margin: auto;
+    margin-top: 50px;
+    color: #001021;
+}
+
+th {
+    background-color: #1BC0EE;
+    margin: 5px;
+    height: 100px;
 }
 
 
@@ -168,16 +183,6 @@ input.noSpinner[type=number] {
     padding: 20px;
 }
 
-.forecast {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.day {
-    background-color: #1BC0EE;
-    margin: 5px;
-}
-
 .section {
     border-style: solid;
     margin: 10px;
@@ -189,6 +194,10 @@ input.noSpinner[type=number] {
     font-weight: bold;
 }
 
+.infoImgs {
+    height: auto;
+    width: 100%;
+}
 
 
 
@@ -235,26 +244,6 @@ input.noSpinner[type=number] {
     color: white;
     text-align: center;
     font-size: 2.5em;
-}
-
-#day1 {
-    background-image: url("");
-}
-
-#day2 {
-    background-image: url("");
-}
-
-#day3 {
-    background-image: url("");
-}
-
-#day4 {
-    background-image: url("");
-}
-
-#day5 {
-    background-image: url("");
 }
 
 #images {
