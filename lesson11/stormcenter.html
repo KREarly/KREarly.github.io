@@ -1,0 +1,112 @@
+<!DOCTYPE HTML5>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8">
+                <title>Storm Center Page</title>
+                <link rel="stylesheet" href="css/normalize.css">
+                <link rel="stylesheet" href="css/preston.css">
+                <link rel="stylesheet" href="css/medium.css">
+                <link rel="stylesheet" href="css/large.css">
+                <script src="javascript/lazyload.js" defer></script>
+                <script src="javascript/forms.js" defer></script>
+                <meta name="description" content="storm center page">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        </head>
+        <body>
+            <header>
+                <div class="container flex-row">
+                <img id="logo" src="imgs/Logo.png" alt="Company Logo">
+                <div class="title">
+                    <h1 class="page-title">Weathering Tomorrow</h1>
+                    <h3 id="slogan">Prepping you for days to come</h3>
+                </div>
+                </div>
+            </header>
+            <nav>
+                <ul class="navigation responsive">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery-7.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <main>
+            <h1 class="page-title">Storm Center</h1>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend class="formHeader">Contact Info</legend>
+                    <label>Full Name* <input type="text" name="name" pattern="[A-Za-z ]+" id="fullName" required></label><br>
+                    <label>Email<input type="email" name="email" placeholder="youremail@gmail.com"></label><br>
+                    <label>Phone*<input type="tell" name="phone" placeholder="1235551234" required></label><br>
+                    <label>Zip Code*<input type="number" name="zip" placeholder="00000" class="noSpinner" required></label><br>
+                </fieldset>
+                <fieldset>
+                    <legend class="formHeader">Storm Details</legend>
+                    <label>Storm Date*<input type="date" required></label>
+                    <div>
+                        <label>Storm Type*
+                        <input list="stormTypes" name="stormType" placeholder="Please Select">
+                            <datalist id="stormTypes">
+                                <option value="Flash Flood"></option>
+                                <option value="Hail"></option>
+                                <option value="Hurricane"></option>
+                                <option value="Tornado"></option>
+                            </datalist>
+                        </label>
+                    </div>
+                    <div>
+                        <label>Severity on a Scale of 1-10*
+                        <label for="rating">
+                            <input class="centering" list="severity" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <span id="displayLvl">5</span>
+                        </label>
+                        <datalist id="severity">
+                            <option value="0"></option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                        </datalist>
+                        </label>
+                    </div>
+                    <div>
+                        <label>Storm Region*
+                        <select name="region">
+                            <option value="">Please Select</option>
+                            <option value="preston">Preston</option>
+                            <option value="sodaSprings">Soda Springs</option>
+                            <option value="fishHaven">Fish Haven</option>
+                        </select>
+                        </label>
+                    </div>
+                    <div>
+                        <label>Are You in Danger?*</label>
+                        <label><input type="radio" value="yes" name="danger">Yes</label>
+                        <label><input type="radio" value="maybe" name="danger">Maybe</label>
+                        <label><input type="radio" value="no" name="danger">No</label>
+                    </div>
+                    <div>
+                        <label>Comments:
+                        <textarea name="comments" placeholder="Extra comments"></textarea>
+                    </label>
+                    </div>
+                    <div id="subButton">
+                        <label><input type="submit" value="Report Storm"></label>
+                    </div>
+                </fieldset>
+            </form>
+            </main>
+            <footer>
+                <h6>Date:</h6>
+            </footer>
+        </body>
+    </html>
