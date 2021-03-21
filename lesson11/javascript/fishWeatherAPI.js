@@ -1,4 +1,4 @@
-const forecastURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=04118603852765e7e56e3a85cf67d6e8&units=imperial';
+const forecastURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=04118603852765e7e56e3a85cf67d6e8&units=imperial';
 let days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
 
 fetch(forecastURL)
@@ -22,7 +22,7 @@ fetch(forecastURL)
 });
 
 
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=04118603852765e7e56e3a85cf67d6e8&units=imperial';
+const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5585010&appid=04118603852765e7e56e3a85cf67d6e8&units=imperial';
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -42,8 +42,8 @@ function windChill(s, t) {
       document.getElementById("wind-chill").textContent = "N/A";
   }
 }
-windChill(20, 40);
 
+windChill(20, 40);
 
 const eventsURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
@@ -55,7 +55,7 @@ fetch(eventsURL)
     console.table(jsonObject);
     const events = jsonObject['towns'];
     for (let i = 0; i < events.length; i++) {
-      if (events[i].name == "Preston") {
+      if (events[i].name == "Fish Haven") {
         let sec = document.createElement('section');
         let p = document.createElement('p');
 

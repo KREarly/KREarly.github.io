@@ -1,19 +1,21 @@
 body {
     font-family: 'Merriweather', serif;
     max-width: 800px;
+    min-width: 400px;
     margin: auto;
+    background-color: #9FD6F3;
 }
 
 header {
-    background-color: #001021;
+    background-color: #15395F;
     align-items: center;
     justify-content: center;
     padding: 10px;
 }
 
 footer {
-    background-color: #001021;
-    color: #1481BA;
+    background-color: #15395F;
+    color: #9FD6F3;
     font-family: 'Merriweather', serif;
     padding: 5px;
     text-align: center;
@@ -41,9 +43,9 @@ label, input, select, span, datalist {
 nav {
     margin: 0 auto;
     max-width: 800px;
-    background-color: #001021;
+    background-color: #15395F;
     color: white;
-    padding: 5px;
+    padding: 10px;
 }
 
 h1 {
@@ -86,6 +88,11 @@ div.info {
     margin: 20px;
 }
 
+div.events {
+    margin: 20px;
+    background-color: white;
+}
+
 section {
     background-color: white;
     padding: 20px;
@@ -111,7 +118,7 @@ table {
 }
 
 th {
-    background-color: #1BC0EE;
+    background-color: #61B2DC;
     margin: 5px;
     height: 100px;
 }
@@ -140,6 +147,7 @@ th {
 
 .navigation a:hover {
     background-color: white;
+    padding: 5px;
     color: #1481BA;
 }
 
@@ -186,6 +194,12 @@ th {
 .section {
     border-style: solid;
     margin: 10px;
+    background-color: white;
+}
+
+.events {
+    background-color: white;
+    padding: 20px;
 }
 
 .page-title {
@@ -208,7 +222,7 @@ th {
 }
 
 #slogan {
-    color: #1481BA;
+    color: #9FD6F3;
     margin-top: 0px;
 }
 
@@ -217,12 +231,28 @@ th {
     grid-template-columns: 1fr 1fr;
     background-color: white;
     color: #034748;
+    margin: 20px;
 }
 
-#hero {
+#hero1 {
     background-image: url("../imgs/Hero-Image.jpg");
     background-size: cover;
     padding: 20px;
+    margin: 20px;
+}
+
+#hero2 {
+    background-image: url("../imgs/Hero-Image-2.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+}
+
+#hero3 {
+    background-image: url("../imgs/Hero-Image-3.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
 }
 
 #summary {
@@ -252,7 +282,7 @@ th {
 }
 
 #displayLvl {
-    color: #1BC0EE;
+    color: #61B2DC;
 }
 
 #subButton {
@@ -262,4 +292,11 @@ th {
 
 #thankYou {
     text-align: center;
+}
+
+#welcomeMsg {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
