@@ -54,14 +54,17 @@ fetch(eventsURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);
-    const events = jsonObject['towns'];
-    for (let i = 0; i < events.length; i++) {
-      if (events[i].name == "Soda Springs") {
+    const towns = jsonObject['towns'];
+    for (let i = 0; i < towns.length; i++) {
+      
+      if (towns[i].name == "Soda Springs") {
         let sec = document.createElement('section');
-        let p = document.createElement('p');
 
-        p.innerHTML = events[i].events + "</br>";
-        sec.appendChild(p);
+        for (let j = 0; j < towns[i].events.length; j++) {
+          let p = document.createElement('p');
+          p.innerHTML = towns[i].events[j];
+          sec.appendChild(p);
+        }
 
         document.querySelector('div.events').appendChild(sec);
       }

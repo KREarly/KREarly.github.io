@@ -16,7 +16,19 @@ fetch(forecastURL)
 
       p.textContent = days[date.getDay()];
       th.appendChild(p);
+
       document.querySelector('tr.topRow').appendChild(th);
+    }
+  }
+  for (let j = 0; j < jsObject.list.length; j++) {
+    if (date.getHours() == 18) {
+      let th = document.createElement('th');
+      let p = document.createElement('p');
+
+      p.textContent = ;
+      th.appendChild(p);
+
+      document.querySelector('tr.bottomRow').appendChild(th);
     }
   }
 });

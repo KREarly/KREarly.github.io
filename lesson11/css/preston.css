@@ -42,7 +42,6 @@ label, input, select, span, datalist {
 
 nav {
     margin: 0 auto;
-    max-width: 800px;
     background-color: #15395F;
     color: white;
     padding: 10px;
@@ -115,12 +114,6 @@ table {
     margin: auto;
     margin-top: 50px;
     color: #001021;
-}
-
-th {
-    background-color: #61B2DC;
-    margin: 5px;
-    height: 100px;
 }
 
 
@@ -213,6 +206,19 @@ th {
     width: 100%;
 }
 
+.galleryBody {
+    max-width: none;
+}
+
+.topRow {
+    background-color: #15395F;
+    color: white;
+}
+
+.bottomRow {
+    background-color: #9FD6F3;
+}
+
 
 
 #logo {
@@ -274,11 +280,13 @@ th {
     color: white;
     text-align: center;
     font-size: 2.5em;
+    margin-left: 0px;
 }
 
 #images {
     display: grid;
     grid-template-columns: 423px;
+    margin: auto;
 }
 
 #displayLvl {

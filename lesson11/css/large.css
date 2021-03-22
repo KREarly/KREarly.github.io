@@ -12,6 +12,7 @@
     #images {
         display: grid;
         grid-template-columns: 423px 423px 423px;
+        justify-content: center;
     }
 
     .section:hover {

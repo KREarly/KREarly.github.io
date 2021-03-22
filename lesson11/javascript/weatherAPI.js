@@ -16,7 +16,22 @@ fetch(forecastURL)
 
       p.textContent = days[date.getDay()];
       th.appendChild(p);
+
       document.querySelector('tr.topRow').appendChild(th);
+    }
+  }
+  const temp = jsObject['list'];
+
+  for (let j = 0; j < temp.length; j++) {
+    const date = new Date(jsObject.list[j].dt_txt);
+    if (date.getHours() == 18) {
+      let th = document.createElement('th');
+      let p = document.createElement('p');
+
+      p.innerHTML = temp[j].main.temp + "&deg;" + "F";
+      th.appendChild(p);
+
+      document.querySelector('tr.bottomRow').appendChild(th);
     }
   }
 });
@@ -53,14 +68,17 @@ fetch(eventsURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);
-    const events = jsonObject['towns'];
-    for (let i = 0; i < events.length; i++) {
-      if (events[i].name == "Preston") {
+    const towns = jsonObject['towns'];
+    for (let i = 0; i < towns.length; i++) {
+      
+      if (towns[i].name == "Preston") {
         let sec = document.createElement('section');
-        let p = document.createElement('p');
 
-        p.innerHTML = events[i].events + "</br>";
-        sec.appendChild(p);
+        for (let j = 0; j < towns[i].events.length; j++) {
+          let p = document.createElement('p');
+          p.innerHTML = towns[i].events[j];
+          sec.appendChild(p);
+        }
 
         document.querySelector('div.events').appendChild(sec);
       }
