@@ -1,4 +1,4 @@
-const forecastURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=04118603852765e7e56e3a85cf67d6e8&units=imperial';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=04118603852765e7e56e3a85cf67d6e8&units=imperial';
 let days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
 
 fetch(forecastURL)
@@ -25,7 +25,7 @@ fetch(forecastURL)
       let th = document.createElement('th');
       let p = document.createElement('p');
 
-      p.textContent = ;
+      p.textContent = "";
       th.appendChild(p);
 
       document.querySelector('tr.bottomRow').appendChild(th);
