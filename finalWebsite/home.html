@@ -7,14 +7,109 @@
             <link rel="stylesheet" href="css/index.css">
             <link rel="stylesheet" href="css/medium.css">
             <link rel="stylesheet" href="css/large.css">
-            <script src="javascript/lazyload.js" defer></script>
+            <script src="js/index.js" defer></script>
         </head>
         <body>
-            <main>
+            <header>
+                <div id="heroImg">
+                    <h1 id="webTitle">Louisville <br> Chamber of <br> Commerce</h1>
+                    <div id="weatherSum">
+                        <h3>Weather Summary</h3>
+                        <p>Currently: <span id="current-temp"></span>&deg; F</p>
+                        <p>High: <span id="high-temp"></span>&deg; F</p>
+                        <p>Wind Chill: <span id="wind-chill"></span>&deg; F</p>
+                        <p>Humidity: <span id="humidity"></span>%</p>
+                        <p>Wind Speed: <span id="wind-speed"></span> mph</p>
+                    </div>
+                    <nav>
+                        <ul class="navigation responsive">
+                            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="city.html">Louisville</a></li>
+                            <li><a href="join.html">Join</a></li>
+                            <li><a href="directory.html">Directory</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
 
-            </main>
-            <footer>
+            <div id="grid1" class="secBlue">
+                <div>
+                <h2>Welcome to Louisville!</h2>
+                <p>Here in Louisville, we're all about keeping our city clean and safe. We also fully support and offer assistance to our local businesses.
+                    This is the home page for the Louisville Colorado Chamber of Commerce page. Here you can check out all our local shops and businesses,
+                    as well as sign up to join us in supporting them!
+                </p>
+                </div>
+                <img id="pic1" src="imgs/louisville1.jpg">
+            </div>
+
+            <div id="grid2" class="secWhite">
+                <h2>Our Purpose</h2>
+                <img id="pic2" src="imgs/louisville3.1.jpg">
+                <p>
+                    Our purpose is to offer support to local businesses and make sure they're able to function, even during quarintine.
+                </p>
+                <a href="join.html"><button>Join Us</button></a>
+            </div>
+
+            <div class="secBlue">
+                <h2>Check Out Our Local Shops!</h2>
+
+                <div class="stores">
+                <div><img class="storeImgs" src="imgs/eyeworks.jpg"></div>
+                <div>
+                    <h4>Eyeworks</h4>
+                    <p>This is the place where Rick, Doc Roffis, and the rest of the team bring clarity to all those who enter. 
+                    Or, more scientifically stated, Eyeworks delivers the best care in Boulder County by offering ophthalmology, 
+                    optometry, and opticianry in one space.</p>
+                </div>
+
+                <div><img class="storeImgs" src="imgs/singingcook.jpg"></div>
+                <div>
+                    <h4>The Singing Cook</h4>
+                    <p>This is your one-stop shop for kitchen gadgets, cookware, bakeware, towels and other fun essentials 
+                    for your culinary aspirations. The gourmet foods section includes Stonewall Kitchen and many Colorado products. 
+                    Owner Jenni Hlawatsch personally selects the wares, and yes, the cook does sing, just come with your favorite musical in mind.</p>
+                    </div>
                 
+                <div><img class="storeImgs" src="imgs/mountainhigh.jpg"></div>
+                <div>
+                    <h4>Mountain High Appliances</h4>
+                    <p>Locally owned and operated since 1993, Mountain High Appliance is Colorado’s most complete appliance source, 
+                    offering every major appliance line as well as delivery and professional installation. Come in and see Brad and his team!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="secWhite">
+                <h2>Three Day Forecast</h2>
+                <table>
+                    <tr class="topRow">
+
+                    </tr>
+                    <tr class="bottomRow">
+
+                    </tr>
+                </table>
+            </div>
+
+            <footer>
+                <div>
+                <p>Contact Us: <br>
+                    Phone: (000)000-0000 <br>
+                    Address: <br>
+                    Fax: <br>
+                    E-mail: <br>
+                </p>
+                </div>
+                <div>
+                <h5>Follow Us on Social Media!</h5>
+                <a href="https://www.facebook.com/LouisvilleCO"><img class="socials" src="imgs/facebook.png"></a>
+                <a href="https://www.instagram.com/visitlouisvilleco/"><img class="socials" src="imgs/instagram.png"></a>
+                <a href="https://twitter.com/CityLouisvlleCo"><img class="socials" src="imgs/twitter.png"></a>
+                </div>
             </footer>
         </body>
     </html>
