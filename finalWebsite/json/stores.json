@@ -1,0 +1,66 @@
+{
+    "stores": [
+      {
+        "name": "The Singing Cook",
+        "address": "728 Main St. Louisville, CO 80027",
+        "phone": "(720)484-6825",
+        "website": "http://singingcookstore.com",
+        "email": "jenni@singingcookstore.com"
+      },
+      {
+        "name": "Eyeworks",
+        "address": "615 Main St. Louisville, CO 80027",
+        "phone": "(303)666-6320",
+        "website": "http://www.eyeworkslouisville.com/"
+      },
+      {
+        "name": "Mountain High Appliance",
+        "address": "1130 Pine St. Louisville, CO 80027",
+        "phone": "(303)665-6850",
+        "website": "http://mountainhighappliance.com/",
+        "email": "brad@mountainhighappliance.com"
+      },
+      {
+        "name": "Creative Framing Art Gallery",
+        "address": "916 Main St. Louisville, CO 80027",
+        "phone": "(303)664-0043",
+        "website": "http://creativeframingartgallery.com/",
+        "email": "info@creativeframingartgallery.com"
+      },
+      {
+        "name": "Eric Olson Master Jeweler",
+        "address": "950 Spruce St. #A Louisville, CO 80027",
+        "phone": "(303)604-0240",
+        "website": "http://www.master-jeweler.cem/",
+        "email": "eomj@master-jeweler.net"
+      },
+      {
+        "name": "FingerPlay Studio",
+        "address": "901 Front St. Suite 110 Louisville, CO 80027",
+        "phone": "(303)604-4374",
+        "website": "http://www.fingerplaystudio.com/",
+        "email": "info@fingerplaystudio.com"
+      },
+      {
+        "name": "My Saving Grace",
+        "address": "909 Main St. Louisville, CO 80027",
+        "phone": "(720)597-4294",
+        "website": "http://www.mysavinggrace.net/",
+        "email": "mysavinggrace909@gmail.com"
+      },
+      {
+        "name": "Old Friends",
+        "address": "706 Front St. Louisville, CO 80027",
+        "phone": "(303)665-8886",
+        "website": "http://www.oldfriendslouisville.com/",
+        "email": "oldfriendsllc@yahoo.com"
+      },
+      {
+        "name": "Little Horse Vintage and Books",
+        "address": "820 Main St. Louisville, CO 80027",
+        "phone": "(303)242-5382",
+        "website": "http://www.facebook.com/LittleHorseBooks",
+        "email": "littlehorsebooks@gmail.com"
+      }
+    ]
+  }

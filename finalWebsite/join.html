@@ -35,7 +35,8 @@
             </header>
 
             <div class="secBlue">
-
+                <h2>Welcome to the Sign Up Page!</h2>
+                <p>Just fill out the information below to join our group and help us make Louisville a great place for businesses!</p>
             </div>
 
             <div class="secWhite">
@@ -48,6 +49,7 @@
                         <label>Email<input type="email" name="email" placeholder="youremail@gmail.com" required></label><br>
                         <label>Phone*<input type="tell" name="phone" placeholder="1235551234" required></label><br>
                     </fieldset>
+
                     <fieldset>
                         <legend class="formHeader">Business Details</legend>
                         <label>Business Name* <input type="text" name="business" pattern="[A-Za-z ]+" id="businessName" required></label><br>
@@ -55,18 +57,19 @@
                         <label>Business Website <input type="text" name="business" pattern="[A-Za-z ]+" id="businessWebsite"></label><br>
                         <label>Business Description:<textarea name="comments" placeholder="Description"></textarea></label>
                     </fieldset>
+
                     <fieldset>
-                        
+                        <legend class="formHeader">Select a Membership Level</legend>
+                        <label class="radio"><input type="radio" value="non-profit" name="level">Non-Profit ($100)</label>
+                        <label class="radio"><input type="radio" value="bronze" name="level">Bronze ($200)</label>
+                        <label class="radio"><input type="radio" value="silver" name="level">Silver ($400)</label>
+                        <label class="radio"><input type="radio" value="gold" name="level">Gold ($1000)</label>
+
+                        <div id="joinButton">
+                            <label><input type="submit" value="Join Now!"></label>
+                        </div>
                     </fieldset>
                 </form>
-            </div>
-
-            <div class="secBlue">
-
-            </div>
-
-            <div class="secWhite">
-
             </div>
 
             <footer>

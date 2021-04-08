@@ -34,6 +34,27 @@ button {
     align-content: right;
 }
 
+fieldset {
+    margin: 20px;
+    background-color: white;
+    border-style: solid 1px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+label, input, select, span, datalist {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 150px;
+    margin-top: 10px;
+}
+
 
 
 .navigation {
@@ -104,6 +125,17 @@ button {
     width: 100%;
 }
 
+.radio {
+    margin-right: 15px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
 
 
 #heroImg {
@@ -153,4 +185,9 @@ button {
     display: grid;
     grid-template-columns: 23% 23% 23% 23%;
     grid-gap: 2%
+}
+
+#joinButton {
+    text-align: center;
+    margin: 20px 0px 5px 0px;
 }
