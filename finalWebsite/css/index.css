@@ -55,13 +55,42 @@ textarea {
     margin-top: 10px;
 }
 
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    margin: auto;
+    margin-top: 50px;
+    color: #001021;
+}
 
+
+
+.sections {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+.topRow {
+    background-color: #4a8fd1;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomRow {
+    background-color: #9FD6F3;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
 
 .navigation {
     list-style: none;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 100px 0px 0px 0px;
     font-size: .75em;
 }
 
@@ -141,7 +170,8 @@ textarea {
 }
 
 .directoryImgs {
-    width: 320px;
+    width: 350px;
+    height: 350px;
 }
 
 
@@ -170,8 +200,8 @@ textarea {
 }
 
 #pic1 {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     margin-left: 50px;
 }
 

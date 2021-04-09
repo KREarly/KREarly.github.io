@@ -26,4 +26,9 @@
     #webTitle {
         font-size: 1em;
     }
+
+    #weatherSum {
+        margin: -100px 50px 0px 0px;
+        font-size: 1em;
+    }
 }
