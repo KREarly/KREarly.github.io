@@ -62,6 +62,7 @@ textarea {
     text-align: center;
     padding: 0;
     margin: 0;
+    font-size: .75em;
 }
 
 .navigation li:first-child {
@@ -81,6 +82,10 @@ textarea {
     background-color: white;
     padding: 5px;
     color: #b5c8d9;
+}
+
+.responsive li {
+    display: block;
 }
 
 .secWhite {

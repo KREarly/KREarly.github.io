@@ -1,3 +1,4 @@
+/*
 const requestURL = '...\json\stores.json';
 
 fetch(requestURL)
@@ -21,7 +22,7 @@ fetch(requestURL)
         document.querySelector('div.cards').appendChild(card);
     }
   });
-
+*/
 
   const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5429522&appid=04118603852765e7e56e3a85cf67d6e8&units=imperial';
 
