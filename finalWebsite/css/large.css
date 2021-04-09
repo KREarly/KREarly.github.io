@@ -1,3 +1,26 @@
 @media (min-width: 64em) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
 
+    .navigation {
+        display: flex;
+        font-size: 1em;
+    }
+
+    #webTitle {
+        background-color: #4a8fd1;
+        color: white;
+        padding: 20px 20px 20px 10px;
+        width: 200px;
+        font-size: 2em;
+    }
+
+    #weatherSum {
+        font-size: 1em;
+        margin: -160px 50px 0px 0px;
+        font-size: 1em;
+    }
 }
